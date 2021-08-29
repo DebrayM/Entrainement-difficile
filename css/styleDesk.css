@@ -1,0 +1,74 @@
+@media (min-width: 1200px) {
+    /** version ordinateur*/ 
+.desk {
+    display: block;
+}
+.div-main{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--gb-body);
+}
+.container-nav {
+    height: 98%; /* Full height */
+    width: 5%;
+    position: fixed;  /*Make it stick, even on scroll */
+    overflow: auto;  /*Enable scrolling if the sidenav has too much content */
+    background-color: var(--gb-body);
+}
+.container-chats {
+    background-color: var(--bg-contact);
+    padding-left: 20vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+/* */
+.container-center {
+    width: 45%;
+    margin-left: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+/* */
+.container-right{
+    background-color: blueviolet;
+    width: 25%;
+    margin-left: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    text-align: center;
+}
+/* */
+.div-flex-col {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vh;
+    text-align: left;
+    font-size: 0.6em;
+    color: var(--Ccolor-txt-g);
+}
+.div-img {
+    margin-left: 4vh;
+    padding-top: 1.2vh;
+}
+.div-txt {
+    margin-left: 1vh;
+    text-align: left;
+}
+
+.bleu-bird{
+    padding-top: 2vh;
+    padding-left: 2vh;
+}
+
+.div-txt h2 {
+    background-color: var(--gb-body);
+    font-size: 0.6em;
+}
+.div-txt p {
+    color: var(--Ccolor-txt-g);
+    font-size: 0.6em;
+}
+/* */
+
+}
