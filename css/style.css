@@ -21,6 +21,7 @@ body {
 .desk {
     display: none;
 }
+
 /* */
 .container-center {
     background-color: var(--gb-body) ;
@@ -32,12 +33,8 @@ body {
 	flex-grow:1;
 }
 .img-radius {
-    width: 30px;
+    width: 40px;
     border-radius: 50%;
-}
-/* */
-.align-right {
-    text-align: right;
 }
 /* */
 .div-txt-white {
