@@ -3,8 +3,12 @@
 .desk {
     display: block;
 }
-footer {
+header {
     padding-left: 40vh;
+    padding-right: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .div-main{
     display: flex;
@@ -77,8 +81,21 @@ footer {
     text-align: left;
 }
 
+.li-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .bleu-bird{
     padding-top: 2vh;
+    padding-left: 2vh;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 25vh;
+}
+nav svg {
     padding-left: 2vh;
 }
 nav ul {
@@ -88,6 +105,7 @@ nav ul {
 }
 nav ul li{
     padding-top: 5vh;
+    padding-left: 0;
 }
 .div-txt h2 {
     background-color: var(--gb-body);
@@ -112,8 +130,49 @@ nav ul li{
 ul {
     list-style: none;
 }
-.img-Bosstrap {
+.img-Bootrap {
     width: 80px;
     border-radius: 50%;
+}
+#div-bootrap {
+    text-align: center;
+    padding-left: 8vh;
+    padding-right: 8vh;
+}
+#div-bootrap p span {
+    color:var(--Ccolor-txt-g);
+}
+#ul-files {
+    background-color: var(--bg-contact);
+    padding: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--Ccolor-txt-g);
+}
+#li-members {
+    background-color: var(--gb-body);
+    padding: 2vh 5vh;
+    font-weight: bold;
+}
+#li-files {
+    padding: 2vh 5vh;
+}
+.dot-16 {
+    padding-top: 4vh;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 4vh
+}
+
+footer {
+    background-color: crimson;
+    padding-right: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
 }
 }
